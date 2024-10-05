@@ -43,7 +43,7 @@ export async function addProduct(prevState: unknown, formData: FormData) {
             description: data.description,
             priceInCents: data.priceInCents,
             filePath,
-            // imagePath  -> entender porque o meu imagepath não funciona.
+            imagePath  
         },
     })
 
